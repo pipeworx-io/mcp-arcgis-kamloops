@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-kamloops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Kamloops GIS — Kamloops, BC (Canada) open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-kamloops": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-kamloops"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-kamloops"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-kamloops.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-955961b43ebd7ec2f02a6b3265dfc8e987de72eb288743f0ea8407621358d073",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
