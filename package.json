@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-kamloops",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "City of Kamloops GIS — Kamloops, BC (Canada) open geospatial data (ArcGIS).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "arcgis-kamloops",
     "gatewaySlug": "arcgis-kamloops",
-    "sourceHash": "v1-7822c64199aff9de9a3f521b00a4db6e3c3d89cd01273439f48257697da0bb9e",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-f08d8ae9d65497146af649d7872eb3ec989e6a992c56e2d9dc3b652647f7ab1f",
+    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
   }
 }
